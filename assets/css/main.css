@@ -1364,6 +1364,13 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 30%);
 }
 
+.swiper-slide img,
+.swiper-slide video {
+  width: 100%;
+  height: auto;
+  object-fit: cover; /* Ensures the video fits nicely like an image */
+}
+
 /*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/
